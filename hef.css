@@ -1,0 +1,69 @@
+.cont
+{
+  background-color: #FFA07A;
+  background-size: cover;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px;
+}
+.cont h2
+{
+  font-family: arial;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+.cont ul
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont ul li
+{
+  font-family: arial;
+  color: #fff;
+  list-style: none;
+  margin-right: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.cont a
+{
+  text-decoration: none;
+  font-family: arial;
+  color: #fff;
+  list-style: none;
+  margin-right: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.cont ul li a:hover
+{
+  text-decoration: none;
+  color: #CD5C5C;
+}
+.cont .btn
+{
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  color: #CD5C5C;
+  font-weight: bolder;
+  transition: 0.5s;
+}
+.cont .btn:hover
+{
+  color: #FF6347;
+}

@@ -1,0 +1,101 @@
+*
+{
+  font-family: arial;
+}
+
+#all
+{
+  background-color: #FFCC99;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+
+}
+h1
+{
+  color: #FF6347;
+}
+
+.cat th
+{
+  color: #FFCC99;
+  background-color: #FF6347;
+
+}
+.dog th
+{
+  color: #FFCC99;
+  background-color: #FF6347;
+
+}
+.list
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px;
+}
+.list ul
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list ul li
+{
+  font-size: 100px;
+  font-family: arial;
+  color: #fff;
+  list-style: none;
+  margin-right: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.list a
+{
+  text-decoration: none;
+  font-size: 100px;
+  font-family: arial;
+  color: #FFA07A;
+  list-style: none;
+  margin-right: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#donate a
+{
+  text-decoration: none;
+  font-family: arial;
+  color: #FF6347;
+  list-style: none;
+  margin-right: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#donate a:hover
+{
+  text-decoration: none;
+  color: #CD5C5C;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width:  50%;
+    object-fit: cover;
+    align: center;
+}
+
+a:hover
+{
+  text-decoration: none;
+  color: #CD5C5C;
+}
